@@ -1,0 +1,162 @@
+@import url(/style.css);
+
+.conteudoMobile{
+    display: grid;    
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 1fr 1/4fr 1fr 1fr;
+    grid-template-areas:
+    "tituloConteudo"
+    "card1"
+    "card2"
+    "card3"
+    "dispositivos"    
+    "funcoes"
+    ;
+}
+
+.conteudoMobile .tituloConteudo{    
+    grid-area: tituloConteudo;
+    font-size: 23px;
+    font-weight: 900;    
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+.conteudoMobile .tituloConteudo small{
+    font-weight: 700;
+    font-size: 15px;
+    color: #526687;    
+}
+
+.conteudoMobile .card1{
+    grid-area: card1;
+    background: #E9EDF8;
+    margin: 5px 15px;
+    border-radius: 10px;       
+}
+
+.conteudoMobile .card1 h3{
+    margin-left: 30px;    
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudoMobile .card1 p{
+    margin: 0px 35px;
+    font-size: 15px;
+}
+
+.conteudoMobile .card1 .barraIcones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 35px;
+    font-size: 10px;    
+}
+
+.conteudoMobile .card2{
+    grid-area: card2;    
+    background: #E9EDF8;
+    margin: 5px 15px;
+    border-radius: 10px;    
+}
+
+.conteudoMobile .card2 h3{
+    margin-left: 30px;    
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudoMobile .card2 p{
+    margin: 0px 35px;
+    font-size: 15px;
+}
+
+.conteudoMobile .card2 .barraIcones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 35px;
+    font-size: 10px;    
+}
+
+.conteudoMobile .card3{
+    grid-area: card3;    
+    background: #E9EDF8;
+    margin: 5px 15px;
+    border-radius: 10px;    
+    display: flex;
+    flex-direction: column;                        
+}
+
+.conteudoMobile .card3 h3{
+    margin-left: 30px;    
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudoMobile .card3 p{
+    margin: 0px 35px;
+    font-size: 15px;    
+}
+
+.conteudoMobile .card3 .barraIcones{
+    display: flex;
+    justify-content: space-between;    
+    align-items:center;
+    margin: 10px 35px;
+    font-size: 10px;    
+} 
+
+.conteudoMobile .dispositivos{
+    grid-area: dispositivos;   
+    flex-direction: column; 
+}
+
+.conteudoMobile .dispositivos h1{
+    margin-top: 10px;
+    color: var(--cor-1);
+}
+
+.conteudoMobile .dispositivos p{
+    color: var(--cor-1);
+    font-size: 25px;
+}
+
+.conteudoMobile .dispositivos img{
+    width: 250px;
+    object-fit: fill;
+}
+
+.conteudoMobile .funcoes{
+    grid-area: funcoes;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--cor-1);
+    
+}
+
+.conteudoMobile .funcoes ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+    border: 1px solid #526687;
+    border-radius: 10px;
+    padding: 10px;
+    color:#526687;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.conteudoMobile .funcoes img{    
+    width: 60px;
+    height: 40px;
+    object-fit: fill;
+}

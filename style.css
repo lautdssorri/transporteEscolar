@@ -1,0 +1,23 @@
+@import url(styles/reset.css);
+/* --------------------------------------------- */
+@import url(styles/mobile/mobile.css);
+@import url(styles/mobile/navMobile.css);
+@import url(styles/mobile/heroSectionMobile.css);
+@import url(styles/mobile/conteudoMobile.css);
+@import url(styles/mobile/footerMobile.css);
+@import url(/styles/mobile/sobreMobile.css);
+/* ---------------------------------------------- */
+@import url(styles/desktop/desktop.css);
+@import url(styles/desktop/navDesktop.css);
+@import url(styles/desktop/heroSectionDesktop.css);
+@import url(/styles/desktop/conteudoDesktop.css);
+@import url(/styles/desktop/sobreDesktop.css);
+@import url(styles/desktop/footerDesktop.css);
+
+:root{
+    --cor-1: #1B3065;
+    --cor-texto: #E9EDF8;
+    --accent-color: #366DFB;
+    font-family: "Roboto", sans-serif;
+}
+

@@ -1,0 +1,26 @@
+@import url(/style.css);
+@import url(navDesktop.css);
+@import url(/styles/conteudoDesktop.css);
+@import url(/styles/footerDesktop.css);
+
+
+@media (min-width:768px){
+    
+    .versaoMobile{
+        display: none;
+    }
+    
+    .versaoDesktop{
+        height: 10vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr 1fr 230px;
+        grid-template-areas: 
+        "nav"
+        "heroSection"        
+        "mensagens"
+        "footer"
+        ;
+    }    
+}
+

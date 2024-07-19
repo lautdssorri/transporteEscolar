@@ -1,0 +1,103 @@
+@import url(/style.css);
+@import url(/styles/desktop.css);
+@import url(/styles/reset.css);
+
+.mensagensDesktop ul{
+    margin-bottom: 60px;
+}
+
+.mensagensDesktop ul li .mensagem{    
+    background: #E9EDF8;
+    margin: 5px 20%;
+    border-radius: 10px;   
+    transition: 0.5s;
+}
+
+.mensagensDesktop ul li .mensagem:hover{       
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;    
+}
+
+
+.mensagensDesktop ul li .mensagem h3{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.mensagensDesktop ul li .mensagem p{
+    text-align: left;
+    margin: 10px 30px;
+}
+
+.mensagensDesktop .mensagem .barraIconesDesktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
+    font-size: 10px;    
+}
+
+
+.mensagensDesktop .mensagem .barraIconesDesktop img{    
+    width: 30px;
+    object-fit: fill;
+    margin: 0 10px;
+    transition: 0.4s;
+}
+
+.mensagensDesktop .mensagem .barraIconesDesktop img:hover{
+    width: 35px;        
+    cursor: pointer;    
+}
+
+.dispositivos{    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dispositivos .celular p{
+    font-size: 20px;
+    color: var(--cor-1);
+}
+
+.dispositivos .computador{
+    font-size: 20px;
+    color: var(--cor-1);
+}
+
+.dispositivos .tablet{
+    font-size: 20px;
+    color: var(--cor-1);
+}
+
+.tituloDispositivo{
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 30px;
+}
+
+.recuros{        
+    width: 60%;    
+    margin: 50px auto;
+    
+  }
+.recuros ul li{    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.recuros ul li p{ 
+    margin-left: 30px;
+}
+.recuros ul li img{
+    width: 50px;
+    object-fit: fill;
+}

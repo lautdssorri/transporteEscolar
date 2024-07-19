@@ -1,0 +1,48 @@
+@import url(/style.css);
+
+.footerDesktop{
+    background: var(--cor-1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footerDesktop .contatoDesktop{
+    display: flex;
+    flex-direction: column;        
+}
+
+.footerDesktop .contatoDesktop img{
+    width: 40px;
+    object-fit: fill;    
+    margin: 10px 20px;
+}
+
+.footerDesktop .contatoDesktop li{
+    list-style: none;   
+    display: flex; 
+    align-items: center;
+    color: var(--cor-texto);
+    font-size: 20px;
+}
+
+.footerDesktop .sobreFooter{
+    width: 200px;
+    color: var(--cor-texto);
+}
+
+.footerDesktop .sobreFooter p{
+    margin: 20px;
+}
+
+.footerDesktop .sobreFooter .barraIconesFooter li{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+.footerDesktop .sobreFooter .barraIconesFooter img{
+    width: 25px;
+    
+}

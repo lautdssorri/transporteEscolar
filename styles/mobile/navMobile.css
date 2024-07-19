@@ -1,0 +1,106 @@
+@import url(../style.css);
+
+.versaoMobile .navegacaoMobile{
+    height: 70px;
+    background-color: var(--cor-1);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;    
+}
+
+.versaoMobile .navegacaoMobile .user img{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    margin-left: 10px;
+    margin:10px
+    
+}
+
+.versaoMobile .navegacaoMobile span h3{
+    color:#fff;
+    font-weight: 900;
+    
+}
+
+.versaoMobile .navegacaoMobile span p{
+    color:#fff;
+    
+}
+
+.open-sidebar-button img{ 
+ margin-right: 20px;
+ margin-left: 40px;
+}
+
+.links-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 200px;
+        height: 100%;
+        background-color:#1B3065;        
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25); 
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: 0.6s ease-out;
+        
+        
+}
+
+nav a{    
+    box-sizing: border-box;    
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;    
+}
+
+nav  .ativo{
+    background: #366DFB;
+    width: 95%;
+    border-radius: 30px;
+}
+
+nav a:active{
+    width: 100%;    
+    background:#366DFB;
+    border-radius: 30px;
+
+}
+
+
+.links-container .material-symbols-outlined{
+    margin-right: 15px;    
+}
+
+.open-sidebar-button, .close-sidebar-button{
+    display: block;
+}
+
+#sideBarAtiva{  
+    display: none;
+}
+
+#sideBarAtiva:checked ~ .links-container{
+    right: 0;
+ }
+ #sideBarAtiva:checked ~ #overlay{        
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+ }

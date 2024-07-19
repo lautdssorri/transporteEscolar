@@ -1,0 +1,41 @@
+@import url(/style.css);
+@import url(/styles/reset.css);
+
+.sobreDesktop{
+display: flex;
+margin-bottom: 50px;
+}
+
+.sobreDesktop .texto{
+  margin-left: 2%;   
+  margin-right: 2%;
+  text-align: center;
+}
+
+.sobreDesktop .texto h1{    
+    color: var(--accent-color);
+    font-weight: 300;
+    margin: 10px;
+    font-size: 36px;
+}
+
+.sobreDesktop .texto p{
+    color: var(--cor-1);    
+}
+
+.sobreDesktop .texto img{  
+  margin-top: 20px;
+  width: 50px;
+  object-fit: fill;
+}
+
+.projeto{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.projeto h1{
+  color: var(--accent-color);
+  font-weight: 300;
+  margin-bottom: 30px;
+}

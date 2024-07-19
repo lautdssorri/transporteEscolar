@@ -1,0 +1,41 @@
+@import url(/style.css);
+@import url(/styles/mobile/footerMobile.css);
+
+.sobreMobile{
+    display: grid;    
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas:
+    "tituloConteudo"
+    "sobre"    
+    ;
+}
+
+.sobreMobile .tituloConteudo{    
+    grid-area: tituloConteudo;
+    font-size: 23px;
+    font-weight: 900;    
+    margin-left: 25px;
+    line-height: 25px;
+}
+
+.sobreMobile .tituloConteudo small{
+    font-weight: 700;
+    font-size: 15px;
+    color: #526687;    
+}
+
+.sobreMobile .sobre{
+    grid-area: sobre;
+    margin: 30px;    
+}
+
+.sobreMobile .sobre h1{
+    background: var(--cor-texto);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sobreMobile .sobre p{
+    margin: 20px;
+}

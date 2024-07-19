@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
+    <link rel="stylesheet" href="style.css">
+    <title>MobileFirst 05</title>
+</head>
+<body> 
+     <!--Versão Mobile-->       
+    <section class="versaoMobile">       
+        <nav class="navegacaoMobile">
+                <span class="user">
+                    <img src="img/user.png" alt="">
+                </span>
+                <span>
+                    <h3>Marta</h3>
+                    <p>Colégio Ary João Dresch</p>
+                </span>
+                
+                <!--Início do mecanismo de checkbox da sideBar-->
+                <input type="checkbox" id="sideBarAtiva">
+                <label for="sideBarAtiva" class="open-sidebar-button">
+                    <img src="img/list_40dp_FILL0_wght400_GRAD0_opsz40.svg" alt="">
+                </label>
+                <!--Camada que possibilita o fechamento da sideBar tocando na tela sem necessárimente clicar no botão X de saida da sideBar-->
+                <label id="overlay" for="sideBarAtiva"></label>               
+                
+                <div class="links-container">
+                    <label for="sideBarAtiva" class="close-sidebar-button">
+                        <img src="img/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </label>
+                    <a class="home-link" href="/index.html"><span class="material-symbols-outlined">
+                        home
+                        </span>Início</a>
+                    <a href="#" class="ativo"><span class="material-symbols-outlined">
+                        description
+                        </span>Sobre</a>   
+                    <a href="#"><span class="material-symbols-outlined">
+                        notifications
+                        </span>Avisos</a>
+                    <a href="#"><span class="material-symbols-outlined">
+                        person
+                        </span>Usuário</a>
+                </div>
+        </nav>            
+        <!--heroSection-->    
+        <div class="heroSectionMobile">
+            <div class="titulo">
+                <h1>Transporte
+                    <p>Escolar</p>
+                </h1>
+                <div class="menuTitulo">
+                    <p>Escolha uma das opções</p>
+                </div>                
+            </div>
+            <div class="figura">
+                <img src="img/amico.png" alt="">
+            </div>
+        </div>
+        <!--Menu Mobile-->
+        <div class="menuMobile">
+            <div class="mensagem">
+                <a href="/index.html"><img src="img/mensagens.png" alt=""></a>
+                <span><a href="/index.html">Mensagem</a></span>
+            </div>
+            <div class="motorista">
+                <img src="img/motorista.png" alt="">
+                <span>Motorista</span>
+            </div>
+            <div class="rotas">
+                <img src="img/rotas.png" alt="">
+                <span>Rotas</span>
+            </div>
+            <div class="escola">
+                <img src="img/escola.png" alt="">
+                <span>Escola</span>
+            </div>            
+        </div>
+        <!--Conteudo Mobile-->
+        <div class="sobreMobile">
+            <div class="tituloConteudo">
+                <h1>Sobre o Projeto</h1>
+                <small>Conheça mais</small>
+            </div> 
+            
+            <div class="sobre">
+                <h1>Quem sou eu?</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In et dicta libero numquam expedita alias repellat ullam corporis unde, totam qui ratione, aliquid reprehenderit hic eveniet? Qui in ipsa facere, eligendi quas asperiores magni magnam iusto animi facilis ea, minima eum excepturi dolorem maiores rerum ullam, officia officiis sunt minus.</p>
+                <h1>Como o projeto surgiu?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni cupiditate enim quaerat! Maiores laudantium reprehenderit assumenda, cum ipsam facere nihil doloribus optio labore tempora ullam consequuntur nam voluptatum debitis delectus dolorem. Maxime ea veritatis aperiam vero eum nulla corrupti consequuntur, blanditiis quisquam impedit autem, id repellat, ad distinctio. Quas, optio?</p>
+                <h1>Qual sua importância?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima amet vitae nisi quo soluta cumque qui error ea ducimus fugit. Facere rerum vero ad ipsa placeat dolor hic iste illum?</p>
+                <h1>Passos Futuros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempore reiciendis repudiandae nisi. Corporis quod velit dicta reiciendis debitis sapiente!</p>
+            </div>
+                        
+            <div class="footer">
+                <div class="contato">
+                    <h2 class="contatoTitulo">Alguma dúvida?</h2>
+                    <p class="contatoTexto">Entre em contato conosco e tire suas dúvidas</p>
+                </div>
+                <input class="contatoEmail" type="email" placeholder="Envie suas dúvidas aqui">
+                <div class="botaoEnviar">
+                    <p>Enviar</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Versão Desktop-->
+    <section class="versaoDesktop">
+        <nav class="navegacaoDesktop">
+            <div class="user">
+                <img src="img/user.png" class="usuario" alt="usuario"> 
+                <div class="informacoes">
+                    <small>Aluna:</small>
+                    <p>Laura</p>
+                </div>                
+            </div>
+                    <ul class="navLinks">
+                        <li><a href="/index.html">Início</a></li>
+                        <li><a href="#">Motorista</a></li>
+                        <li><a href="#">Rotas</a></li>
+                        <li><a href="#">Escola</a></li>
+                    </ul>
+            <div>
+                <a class="contato" href="#"><button>Sobre</button></a>
+            </div>                                
+        </nav>    
+    <!--Conteudo Desktop-->
+        <div class="heroSectionDesktop">
+            <div class="descricaoHeroSection">
+                <small>Colégio Ary João Dresch</small>
+                <h2>Transporte Escolar</h2>
+                <h1>TUDO EM UM ÚNICO LUGAR</h1>
+                <p>Avisos, entre em contato com seu motorista, conheça suas rotas,<br>e veja o calendário escolar para o transporte rural. Todas as informações <br> de seu transporte escolar você encontra aqui.</p>
+                <a href="#"><button>Saiba Mais</button></a>
+            </div>
+            <div class="imagemHeroSection">
+                <img src="img/bus.jpg" alt="">
+            </div>
+        </div>    
+    <!--Mensagens Recentes-->
+        <div class="sobreDesktop">            
+                <div class="texto">
+                    <h1>Quem sou eu?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iure fugiat excepturi incidunt mollitia in praesentium soluta! Voluptatem nobis quaerat voluptatibus alias odio. Sed optio harum cupiditate autem eligendi.</p>
+                    <img src="/img/perfil.png" alt="">
+                </div>
+                <div class="texto">
+                    <h1>Objetivo</h1> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem nihil recusandae fugiat unde similique? Ullam, nulla alias! A inventore neque blanditiis laudantium omnis ad adipisci porro quasi aliquam modi?</p>               
+                    <img src="/img/objetivo.png" alt="">
+                </div>                                
+                <div class="texto">
+                    <h1>Passos Futuros</h1> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quidem nihil recusandae fugiat unde similique? Ullam, nulla alias! A inventore neque blanditiis laudantium omnis ad adipisci porro quasi aliquam modi?</p>               
+                    <img src="/img/passos.png" alt="">
+                </div>                                
+        </div>        
+        <div class="projeto">
+            <h1>Como surgiu o Projeto Tranporte Escola</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque, aut delectus adipisci obcaecati corporis nisi magnam excepturi tempora quo dolorum itaque ab omnis, hic debitis! Ipsum perferendis dignissimos odio deserunt temporibus, itaque necessitatibus, vitae consequuntur, optio explicabo vel? Vero accusantium ut ea, tenetur deleniti voluptate magni quis architecto modi. Quisquam dolorum facere nemo nihil officia nesciunt vel voluptatum, fugiat, ipsum impedit vero? Autem nemo dolorum ducimus nam dignissimos debitis, facere distinctio sed quibusdam incidunt ullam quam, corrupti, veritatis explicabo similique dolorem placeat optio nobis tenetur tempore. Eveniet, ratione enim. Neque ipsam temporibus alias deleniti culpa. Repudiandae eos cumque inventore.</p>
+        </div>
+        
+    <!--FooterDesktop-->
+        <div class="footerDesktop">
+            <div class="contatoDesktop">
+                <ul>
+                  <li><img src="img/local.png" alt="">Colégio Estadual<br>Ary João Dresch<br>Nova Londrina-PR</li>
+                </li>  
+                  <li><img src="img/fone.png" alt="">(44) 3423-1020</li>
+                  <li><img src="img/email.png" alt="">colary@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="sobreFooter">
+                <h1>Sobre este projeto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, soluta.</p>
+                    <div class="barraIconesFooter">
+                        <ul>
+                            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/linkedin.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/github.png" alt=""></a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    </body>
+</body>
+</html>

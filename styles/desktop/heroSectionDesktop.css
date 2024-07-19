@@ -1,0 +1,49 @@
+@import url(/style.css);
+
+.heroSectionDesktop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.heroSectionDesktop .imagemHeroSection img{
+    width: 400px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.heroSectionDesktop .descricaoHeroSection small{
+    color:var(--cor-1);
+    letter-spacing: 5px;    
+}
+
+.heroSectionDesktop .descricaoHeroSection h2{
+    font-size: 30px;
+    color:var(--cor-1);
+}
+
+.heroSectionDesktop .descricaoHeroSection h1{
+    font-size: 45px;
+    color: var(--accent-color);
+    margin-bottom: 30px;
+}
+
+.heroSectionDesktop .descricaoHeroSection p{
+    color:var(--cor-1);
+    margin-bottom: 20px;
+}
+
+.heroSectionDesktop .descricaoHeroSection button{
+    padding: 9px 25px;
+    background-color: var(--accent-color);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.heroSectionDesktop .descricaoHeroSection button:hover{
+    padding: 9px 30px;
+}
