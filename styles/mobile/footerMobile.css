@@ -43,4 +43,9 @@
     width: 30%;
     border: 1px solid #FFF;
     border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer .botaoEnviar:active{    
+    width: 40%;     
 }
