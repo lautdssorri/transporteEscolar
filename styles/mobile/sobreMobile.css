@@ -1,5 +1,5 @@
-@import url(/style.css);
-@import url(/styles/mobile/footerMobile.css);
+@import url(./style.css);
+@import url(./styles/mobile/footerMobile.css);
 
 .sobreMobile{
     display: grid;    

@@ -1,5 +1,5 @@
-@import url(/styles/reset.css);
-@import url(/style.css);
+@import url(./styles/reset.css);
+@import url(./style.css);
 
 .heroSectionMobile{
     display: flex;

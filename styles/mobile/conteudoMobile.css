@@ -1,14 +1,12 @@
-@import url(/style.css);
+@import url(./style.css);
 
 .conteudoMobile{
     display: grid;    
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 1fr 1fr 1/4fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 1/4fr;
     grid-template-areas:
     "tituloConteudo"
-    "card1"
-    "card2"
-    "card3"
+    "card1"    
     "dispositivos"    
     "funcoes"
     ;
@@ -28,91 +26,48 @@
     color: #526687;    
 }
 
-.conteudoMobile .card1{
-    grid-area: card1;
-    background: #E9EDF8;
+/* -------------------- */
+
+.conteudoMobile .cards{
+    grid-area: card1;    
     margin: 5px 15px;
-    border-radius: 10px;       
+    border-radius: 10px;           
 }
 
-.conteudoMobile .card1 h3{
-    margin-left: 30px;    
-    font-size: 15px;
-    font-weight: 800;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.conteudoMobile .cards .recados{
+    list-style: none;    
 }
 
-.conteudoMobile .card1 p{
-    margin: 0px 35px;
-    font-size: 15px;
+.conteudoMobile .cards .recados li{
+    background: #E9EDF8;
+    margin-bottom: 20px;    
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.conteudoMobile .card1 .barraIcones{
+.conteudoMobile .cards .recados h3{
+    padding: 10px;
+}
+
+.conteudoMobile .cards .recados p{
+    margin: 5px 20px;
+}
+
+.conteudoMobile .cards .recados .barraIcones{
+    width: 100%;    
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-evenly;    
     align-items: center;
-    margin: 10px 35px;
-    font-size: 10px;    
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
-.conteudoMobile .card2{
-    grid-area: card2;    
-    background: #E9EDF8;
-    margin: 5px 15px;
-    border-radius: 10px;    
+.conteudoMobile .cards .recados .barraIcones span{
+    font-size:smaller;
 }
 
-.conteudoMobile .card2 h3{
-    margin-left: 30px;    
-    font-size: 15px;
-    font-weight: 800;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.conteudoMobile .card2 p{
-    margin: 0px 35px;
-    font-size: 15px;
-}
-
-.conteudoMobile .card2 .barraIcones{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 35px;
-    font-size: 10px;    
-}
-
-.conteudoMobile .card3{
-    grid-area: card3;    
-    background: #E9EDF8;
-    margin: 5px 15px;
-    border-radius: 10px;    
-    display: flex;
-    flex-direction: column;                        
-}
-
-.conteudoMobile .card3 h3{
-    margin-left: 30px;    
-    font-size: 15px;
-    font-weight: 800;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.conteudoMobile .card3 p{
-    margin: 0px 35px;
-    font-size: 15px;    
-}
-
-.conteudoMobile .card3 .barraIcones{
-    display: flex;
-    justify-content: space-between;    
-    align-items:center;
-    margin: 10px 35px;
-    font-size: 10px;    
-} 
+/* --------------------- */
 
 .conteudoMobile .dispositivos{
     grid-area: dispositivos;   

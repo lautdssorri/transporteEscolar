@@ -1,6 +1,6 @@
-@import url(/style.css);
-@import url(/styles/desktop.css);
-@import url(/styles/reset.css);
+@import url(../style.css);
+@import url(./styles/desktop.css);
+@import url(./styles/reset.css);
 
 .mensagensDesktop ul{
     margin-bottom: 60px;

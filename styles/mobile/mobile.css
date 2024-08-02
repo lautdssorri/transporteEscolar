@@ -1,6 +1,6 @@
-@import url(navMobile.css);
-@import url(heroSectionMobile.css);
-@import url(conteudoMobile.css);
+@import url(./navMobile.css);
+@import url(./heroSectionMobile.css);
+@import url(./conteudoMobile.css);
 
 
 .versaoMobile{
