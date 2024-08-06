@@ -40,20 +40,24 @@
 .navLinks li:hover{        
     background-color: var(--accent-color);
     color: var(--cor-texto);
+    border-radius: 10px;    
+    cursor: pointer;
+}
+
+.navLinks li:active{    
+    background: none;
+}
+
+.versaoDesktop .navegacaoDesktop .contato{    
     border-radius: 10px;
-    cursor: pointer;
-}
-
-.navegacaoDesktop .contato button{        
-    padding: 9px 25px;
-    background-color: var(--accent-color);
-    color: var(--cor-texto);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
     transition: 0.5s;
+    
+}
+.versaoDesktop .navegacaoDesktop .contato:hover{
+    background: var(--cor-texto);
+    color: var(--accent-color);
 }
 
-.navegacaoDesktop .contato button:hover{
-    padding: 15px 25px;
+.versaoDesktop .navegacaoDesktop .contato:active{
+    padding: 15px;
 }
