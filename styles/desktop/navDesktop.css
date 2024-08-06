@@ -28,7 +28,7 @@
 .versaoDesktop .navegacaoDesktop .usuario{
     width: 50px;
     height: 50px;
-    object-fit: fill;
+    object-fit: fill
 }
 
 .navLinks li{
@@ -38,14 +38,15 @@
 }
 
 .navLinks li:hover{        
-    background-color: var(--accent-color);
-    color: var(--cor-texto);
-    border-radius: 10px;    
+    background-color: var(--accent-color);        
+    margin: 5px;
+    border-radius: 10px;        
     cursor: pointer;
 }
 
 .navLinks li:active{    
     background: none;
+
 }
 
 .versaoDesktop .navegacaoDesktop .contato{    
