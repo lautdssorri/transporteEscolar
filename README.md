@@ -7,3 +7,4 @@ Icones: https://fontawesome.com/ versão gratuita e https://fonts.google.com/ico
 Fonte: Roboto https://fonts.google.com/icons
 Imagens Descritivas: https://www.freepik.com/search?format=search&query=assets%20bus%20
 
+OBS: O professor Demétrio Torgan aparece como colaborador pois tive problemas de merge durante o upload do código em meu github.
